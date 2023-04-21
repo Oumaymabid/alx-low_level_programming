@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+  *main - entry point
+  *Description: 'prints the alphabet in lowercase, and then in uppercase'
+  *Return: O (success)
+  */
+int main(void)
+{
+	int n = 97;
+	int m = 65;
+
+	while (n <= 122)
+	{
+		putchar(n);
+	}
+	while (m <= 90)
+	{
+		putchar(m);
+	}
+	putchar('\n');
+	return (0);
+}
