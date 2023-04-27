@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *_isupper - uppercase letters
-  *@c in the chart to be checked
+  *@c: in the chart to be checked
   *Return: 1 if c is uppercase, 0 otherwise
   */
 int _isupper(int c)
