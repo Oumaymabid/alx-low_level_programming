@@ -1,0 +1,11 @@
+stint_safe.c: In function ‘free_listint_safe’:
+102-free_listint_safe.c:11:2: error: unknown type name ‘linstint_t’; did you mean ‘listint_t’?
+   11 |  linstint_t *t;
+         |  ^~~~~~~~~~
+	       |  listint_t
+	       102-free_listint_safe.c:21:6: error: assignment to ‘int *’ from incompatible pointer type ‘struct listint_s *’ [-Werror=incompatible-pointer-types]
+	          21 |    t = (*h)->next;
+		        |      ^
+			102-free_listint_safe.c:23:7: error: assignment to ‘listint_t *’ {aka ‘struct listint_s *’} from incompatible pointer type ‘int *’ [-Werror=incompatible-pointer-types]
+			   23 |    *h = t;
+			         |       ^
